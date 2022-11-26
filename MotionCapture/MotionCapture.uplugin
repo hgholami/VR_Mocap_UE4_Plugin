@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Motion Capture Plugin",
+	"Description": "Plugin to create mocap animations using VR.",
+	"Category": "VR Mocap",
+	"CreatedBy": "Houman Gholami",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MotionCapture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Takes",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": true
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": true
+		}
+	]
+}
